@@ -1,3 +1,7 @@
 ## 0.1.0
 
-* Initial release.
+* Fix formatting and copy
+
+## 0.1.0
+
+* Initial release
