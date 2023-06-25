@@ -1,0 +1,14 @@
+name: lifi_api_dart
+description: A community library for interacting with the Li.Fi API.
+version: 0.1.0
+repository: https://github.com/0xdir/lifi-api-dart
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  http: ^1.0.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
