@@ -1,6 +1,6 @@
 name: lifi_api_dart
 description: A Future-based library to interact with the Li.Fi API, allowing easy swapping of tokens between blockchain networks with Dart.
-version: 0.1.1
+version: 0.1.2
 repository: https://github.com/0xdir/lifi-api-dart
 
 environment:
