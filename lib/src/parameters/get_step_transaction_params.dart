@@ -6,36 +6,36 @@ import '../parameters/base_params.dart';
 
 /// The step object
 class GetStepTransactionParams implements BaseParams {
-  ///  Unique identifier of the step
+  /// Unique identifier of the step
   late String id;
 
-  ///  The type of the step
-  ///  Options: swap, cross, lifi
+  /// The type of the step
+  /// Options: swap, cross, lifi
   late String type;
 
   /// The tool used for this step. E.g. connext
   late String tool;
 
-  ///  The action of the step
+  /// The action of the step
   late StepAction action;
 
-  ///  The estimation for the step
+  /// The estimation for the step
   late Estimate? estimate;
 
-  ///  A string containing tracking information about the integrator
-  ///  of the API
+  /// A string containing tracking information about the integrator
+  /// of the API
   late String? integrator;
 
-  ///  A string containing tracking information about the referrer
-  ///  of the integrator
+  /// A string containing tracking information about the referrer
+  /// of the integrator
   late String? referrer;
 
-  ///  An objection containing status information about the execution
+  /// An objection containing status information about the execution
   late String? execution;
 
-  ///  An ether.js TransactionRequest that can be triggered using
-  ///  a wallet provider.
-  ///  (https://docs.ethers.io/v5/api/providers/types/#providers-TransactionRequest)
+  /// An ether.js TransactionRequest that can be triggered using
+  /// a wallet provider.
+  /// (https://docs.ethers.io/v5/api/providers/types/#providers-TransactionRequest)
   late String? transactionRequest;
 
   /// A map of the params

@@ -2,10 +2,10 @@ import '../../../src/parameters/base_params.dart';
 import '../../../src/utils/utils.dart';
 
 class GetGasPriceParams implements BaseParams {
-  ///   ChaindId from which gas prices should be shown
+  /// ChaindId from which gas prices should be shown
   late String chainId;
 
-  ///   If true it wil get the freshest gas prices available.
+  /// If true it wil get the freshest gas prices available.
   late String? refresh;
 
   /// A map of the params, where nulls are removed

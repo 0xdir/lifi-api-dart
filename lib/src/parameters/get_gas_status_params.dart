@@ -2,7 +2,7 @@ import 'base_params.dart';
 import '../utils/utils.dart';
 
 class GetGasStatusParams implements BaseParams {
-  ///  The transaction hash that started the gas refilling process
+  /// The transaction hash that started the gas refilling process
   late String txHash;
 
   /// A map of the params, where nulls are removed

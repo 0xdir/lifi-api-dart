@@ -2,7 +2,7 @@ import './base_params.dart';
 import '../utils/utils.dart';
 
 class GetGasPriceSuggestionParams implements BaseParams {
-  ///Chain from which gas prices should be shown (can be a chain id or a chain key)
+  /// Chain from which gas prices should be shown (can be a chain id or a chain key)
   late String chain;
 
   /// If fromChain and fromToken are specified, the result will contain information about how much fromToken amount the user has to send to receive the suggested gas amount on the requested chain.
